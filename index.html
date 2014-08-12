@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="jamie-blurb">
+  <p>Jamie White is a web developer and all round great dude.<br />
+    He works at <a href="http://www.withassociates.com">With Associates</a> with a bunch of other great dudes.<br />
+    He's pretty good at Spanish.
+  </p>
+  </div>
+
+  <h2>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

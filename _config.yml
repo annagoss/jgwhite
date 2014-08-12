@@ -1,0 +1,12 @@
+# Site settings
+title: JAMIE WHITE
+email: jamie at jgwhite.co.uk
+description: "I made this site for my friend and colleague Jamie White"
+baseurl: ""
+url: "http://jgwhite.co.uk"
+username: jgwhite
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
