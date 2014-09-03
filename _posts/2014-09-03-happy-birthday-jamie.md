@@ -2,7 +2,6 @@
 layout: post
 title:  "Happy birthday Jamie"
 date:   2014-09-03 10:26:34
-categories: jekyll update
 ---
 
 We think you're great.
